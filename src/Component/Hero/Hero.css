@@ -1,0 +1,86 @@
+.hero
+{
+    height: 100vh;
+     background: linear-gradient(180deg , pink 60%, white ); 
+     display: flex;
+
+}
+.hero-left
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.hero-left h2
+{
+    color: #090909;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    margin-top: -32%;
+    font-weight: 600;
+}
+.hero-hand-icon p{
+    color: #171717;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top:68%;
+    margin-left: -310%;
+}
+.hero-hand-icon
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.hero-hand-icon img{
+    width: 100px;
+    margin-top: 150px;
+}
+.para1
+{
+    color: #171717;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: -18%;
+    margin-left: -310%;  
+}
+
+
+
+.hero-latest-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 290px;
+    height: 50px;
+    border-radius: 75px;
+    margin-top: 32%;
+    margin-left: -90%;
+    background:plum;
+    color: white;
+    font-size: 22px;
+    font-weight: 500px;
+}
+.hero-right
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img{
+    width: 70%;
+    margin-left:   200px;
+}
+
+
